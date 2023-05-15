@@ -11,12 +11,18 @@ header {
   background:#FFDBAA;
 }
 .buttons {
-  margin: 0;
   position: relative;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  background: #805215;
+  color:white;
+  bottom: 0;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+h2 {
+  text-align: center;
 }
 article {
   width:300px;
