@@ -8,6 +8,7 @@ h1, form {
 }
 header {
   text-align: center;
+  background:#FFDBAA;
 }
 .buttons {
   margin: 0;
@@ -18,10 +19,18 @@ header {
   transform: translate(-50%, -50%);
 }
 article {
-  width:fit-content;
-  padding:auto;
+  width:300px;
+  padding:10px;
   border-width: 1px;
   border-style: solid;
   border-color: black;
   margin: 0;
+  background:white;
+}
+.column {
+  display: flex;
+  justify-content: space-around;
+}
+body {
+  background:#D4A76A;
 }
