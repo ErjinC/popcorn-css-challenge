@@ -7,12 +7,17 @@ h1, form {
   display: inline;
 }
 header {
-  text-align: center;
   background:#FFDBAA;
   margin-top: -20px;
-  float:top;
-  font-size: x-large;
+  padding-bottom: 60px;
+  padding-top:40px;
 
+}
+h1 {
+  font-size: xx-large;
+  font-family: 'Segoe UI';
+  color: #553100;
+  margin: 50px;
 }
 .buttons {
   position: relative;
@@ -22,12 +27,33 @@ header {
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
+  font-weight: bold;
+  font-family: 'Segoe UI';
+  font-size: x-large;
+  border: none;
+}
+.buttonsheader {
+  position: relative;
+  background: #805215;
+  color:white;
+  bottom: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-weight: bold;
+  font-family: 'Segoe UI';
+  font-size: x-large;
+  border: none;
+  margin-left: 30px;
+
+}
+.buttonsheaderparent {
+  float:right;
+  margin-right:120px;
 }
 h2 {
   text-align: center;
   margin: 0;
+  font-size:x-large;
 }
 article {
   width:300px;
@@ -35,6 +61,8 @@ article {
   margin: 0;
   margin-top: 20px;
   background:white;
+  font-family: 'Segoe UI';
+  font-size: large;
 }
 .column {
   display: flex;
@@ -50,4 +78,6 @@ footer {
   background:white;
   margin:auto;
   margin-top: 20px;
+  font-family: 'Segoe UI';
+  font-size:x-large;
 }
